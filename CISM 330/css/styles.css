@@ -10,6 +10,56 @@ body,header, main, nav, footer, img {
 	border: 0;
 }
 img {
-  
+	max-width: 100;
+	display: block;
+}
+
+/*navigation styles*/
+
+nav {
+	width: 70;
+	float: right;
+	margin: 5 3; 
+}  
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: right;
+	text-decoration: none
+}
+nav li {
+	display: inline-block;
+	font-size:	1.753;
+	text-decoration: none;
+}
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.5 1;
+	text-decoration: none
+}
+
+/*Main styles*/
+
+main {
+	text-align: center;
+}
+
+#about {
+text-align: center;
+
+/*footer style rules*/
+
+footer {
+	text-align: right;
+	font-size: 1.75;
+}
+
+
+	
+	
+	
+
 
 	

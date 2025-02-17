@@ -1,9 +1,15 @@
 /*
 Chad Davidson
-02/16/2015
+02/16/2025
 styles.css
 */
-/*CSS Reset*/
 
-body, main, header, nav, footer {
-  m
+body,header, main, nav, footer, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+img {
+  
+
+	

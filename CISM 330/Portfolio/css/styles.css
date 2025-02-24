@@ -4,22 +4,39 @@ Chad Davidson
 styles.css
 */
 
-body,header, main, nav, footer, img {
+/* CSS Reset Rules */
+body,header, main, nav, footer, img, h1, h2 {
 	margin: 0;
 	padding: 0;
 	border: 0;
+/*body styles*/	
 }
+body{
+	background-color: blue;
+}
+/* header styles*/
+
+header{
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+h1{
+	text-shadow: 0cap;
+}
+h2{
+	
+}
+
+/*images styles*/
 img {
-	max-width: 100;
+	max-width: 100%;
 	display: block;
 }
 
 /*navigation styles*/
 
 nav {
-	width: 70;
 	float: right;
-	margin: 5 3; 
 }  
 nav ul {
 	list-style-type: none;
@@ -29,14 +46,14 @@ nav ul {
 }
 nav li {
 	display: inline-block;
-	font-size:	1.753;
+	font-size:	1.753em;
 	text-decoration: none;
 }
 nav li a {
 	display: block;
 	color: #fff;
 	text-align: center;
-	padding: 0.5 1;
+	padding: 0.5em 1em;
 	text-decoration: none
 }
 
@@ -48,12 +65,25 @@ main {
 
 #about {
 text-align: center;
+}
+article{
+	text-align: center;
+}
+#contact {
+	font-family: 'Times New Roman', Times, serif;
+	font-style: normal;
+	text-decoration: none;
+}
+#skills {
+text-decoration: none;
+
+}
 
 /*footer style rules*/
 
 footer {
 	text-align: right;
-	font-size: 1.75;
+	font-size: 1.75em;
 }
 
 

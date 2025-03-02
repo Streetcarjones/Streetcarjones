@@ -73,6 +73,11 @@ article{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: left;
 }
+article ul {
+	article ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
 #contact {
 	font-family: 'Times New Roman', Times, serif;
 	font-style: normal;

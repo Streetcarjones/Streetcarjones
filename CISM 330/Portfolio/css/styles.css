@@ -62,10 +62,10 @@ main {
 }
 
 #about {
-text-align: center;
+text-align: left;
 }
 article{
-	text-align: center;
+	text-align: left;
 }
 #contact {
 	font-family: 'Times New Roman', Times, serif;

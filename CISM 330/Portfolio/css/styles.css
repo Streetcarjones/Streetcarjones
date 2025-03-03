@@ -4,22 +4,22 @@ Chad Davidson
 styles.css
 */
 
-/* ========== CSS Reset ========== */
+/* CSS Reset  */
 body, header, main, nav, footer, img, h1, h2 {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-/* ========== Body Styles ========== */
+/* Body Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: gold;
+    color: black;
     text-align: center;
 }
 
-/* ========== Header Styles ========== */
+/* Header Styles  */
 header {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -33,14 +33,14 @@ h2 {
     font-size: 1.5em;
 }
 
-/* ========== Image Styles ========== */
+/* Image Styles  */
 img {
     display: block;
     margin: 20px auto;
     border-radius: 10px;
 }
 
-/* ========== Navigation ========== */
+/* Navigation  */
 nav ul {
     list-style: none;
     padding: 0;
@@ -66,12 +66,12 @@ nav ul li a:hover {
     color: #f4b400;
 }
 
-/* ========== Main Styles ========== */
+/* Main Styles  */
 main {
     text-align: center;
 }
 
-/* ========== About Section ========== */
+/* About Section */
 .about {
     width: 60%;
 	margin: 50px auto;
@@ -88,7 +88,7 @@ main {
 	margin-bottom:  10px;
 }
 
-/* ========== Contact Section ========== */
+/* Contact Section*/
 #contact {
     background: white;
     max-width: 700px;
@@ -115,7 +115,7 @@ main {
     margin: 10px 0;
 }
 
-/* ========== Google Map ========== */
+/*  Google Map  */
 iframe {
     width: 100%;
     max-width: 600px;
@@ -124,7 +124,7 @@ iframe {
     display: block;
     margin: 20px auto;
 }
-/* ========== Skills Section ========== */
+/*  Skills Section  */
 #skills table {
     width: 80%;
     margin: 0% auto;
@@ -137,7 +137,7 @@ padding: 10px;
 text-align: center;
 border: 1px solid black;
 }
-/*========== Mobile View ===========*/
+/* Mobile View */
 @media (max-width: 600px) {
 	 table{width: 100%;
 	font-size: 14px;

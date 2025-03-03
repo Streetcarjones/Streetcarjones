@@ -141,8 +141,8 @@ iframe {
 }
 /* ========== Skills Section ========== */
 #skills table {
-    width: 60%;
-    margin: 20px auto;
+    width: 80%;
+    margin: 0 auto;
     border-collapse: collapse;
     text-align: center;
     font-size: 1.1em;
@@ -154,16 +154,18 @@ iframe {
 #skills th {
     background: linear-gradient(135deg, #444, #222);
     color: white;
-    padding: 12px;
+    padding: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
+	text-align: center;
 }
 
 
 #skills td {
-    padding: 12px;
-    border: 1px solid #ddd;
+    padding: 10px;
+    border: 1px solid black;
     transition: background 0.3s ease-in-out;
+	text-align: center;
 }
 
 

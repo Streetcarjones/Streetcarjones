@@ -12,7 +12,13 @@ body,header, main, nav, footer, img, h1, h2 {
 /*body styles*/	
 }
 body{
-	background-color: rgba(54, 159, 183, 0.661);
+ font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f9f9f9;
+ color: #333;
+line-height: 1.6;
+text-align: center;
 }
 /* header styles*/
 
@@ -73,10 +79,7 @@ article{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: left;
 }
-article ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
+
 #contact {
 	font-family: 'Times New Roman', Times, serif;
 	font-style: normal;

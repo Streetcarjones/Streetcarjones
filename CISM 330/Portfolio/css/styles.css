@@ -144,47 +144,15 @@ iframe {
     width: 80%;
     margin: 0 auto;
     border-collapse: collapse;
-    text-align: center;
-    font-size: 1.1em;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    overflow: hidden;
+   
 }
 
-#skills th {
-    background: linear-gradient(135deg, #444, #222);
-    color: white;
-    padding: 10px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-	text-align: center;
+#skills td, th {
+ padding: 10px;
+text-align: center;
+border: 1px solid black;
 }
 
-
-#skills td {
-    padding: 10px;
-    border: 1px solid black;
-    transition: background 0.3s ease-in-out;
-	text-align: center;
-}
-
-
-#skills tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-#skills tr:nth-child(odd) {
-    background-color: #ffffff;
-}
-
-
-#skills tr:hover {
-    background-color: #f4b400;
-    color: white;
-    cursor: pointer;
-    transform: scale(1.02);
-    transition: all 0.3s ease-in-out;
-}
 
 
 /* ========== Footer ========== */

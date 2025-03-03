@@ -137,6 +137,27 @@ padding: 10px;
 text-align: center;
 border: 1px solid black;
 }
+/*========== Mobile View ===========*/
+@media (max-width: 600px) {
+	 table{width: 100%;
+	font-size: 14px;
+}
+th, td {
+	padding: 8px;
+}
+/*Tablet View (Up to 900px)*/
+@media (max-width: 900px) {
+	table{
+		width: 90%;
+		font-size: 16px;
+}
+
+/*Desktop View*/
+@media (min-width: 901px) {
+	table{
+		width: 80;
+		font-size: 18px;
+	}
 
 
 

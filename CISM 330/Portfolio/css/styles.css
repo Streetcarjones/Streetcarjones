@@ -142,13 +142,13 @@ iframe {
 /* ========== Skills Section ========== */
 #skills table {
     width: 80%;
-    margin: 0 auto;
+    margin: 0% auto;
     border-collapse: collapse;
    
 }
 
 #skills td, th {
- padding: 10px;
+padding: 10px;
 text-align: center;
 border: 1px solid black;
 }

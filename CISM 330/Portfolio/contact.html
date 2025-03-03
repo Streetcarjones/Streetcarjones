@@ -40,7 +40,27 @@ Contact.html
        </ul>
 </section>
 
+<section id="contact-form">
+  <h2>Questions?</h2>
+  <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
 
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="subject">Subject:</label>
+      <select id="subject" name="subject">
+          <option value="general">General Inquiry</option>
+          <option value="feedback">Feedback</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Submit</button>
+  </form>
+</section>
       
       
       </main>

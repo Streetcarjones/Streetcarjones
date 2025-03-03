@@ -76,23 +76,23 @@ main {
 text-align: left;
 }
 
-header {
+#about header {
     background: #333;
     color: white;
     padding: 20px;
 }
 
-header h1 {
+#about header h1 {
     margin: 0;
     font-size: 2em;
 }
 
-header h2 {
+#about header h2 {
     font-style: italic;
     font-size: 1.2em;
     color: #ddd;
 }
-article{
+#about article{
 	 background: white;
     max-width: 600px;
     margin: 20px auto;

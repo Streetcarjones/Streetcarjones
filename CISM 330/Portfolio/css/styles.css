@@ -162,7 +162,7 @@ iframe {
 
 #skills td {
     padding: 12px;
-    border: 1px solid #ddd;
+    border: 1px solid #111111c7;
     transition: background 0.3s ease-in-out;
 }
 
@@ -172,7 +172,7 @@ iframe {
 }
 
 #skills tr:nth-child(odd) {
-    background-color: #ffffff;
+    background-color: #111111c7;
 }
 
 #skills tr:hover {

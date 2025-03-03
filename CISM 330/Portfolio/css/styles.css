@@ -17,7 +17,6 @@ body{
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
-    line-height: 1.6;
     text-align: center;
 }
 /* header styles*/
@@ -161,7 +160,7 @@ article{
 
 /*Skills Section*/
 #skills {
-text-decoration: none;
+text-decoration:none;
 
 }
 #skills table {

@@ -139,28 +139,50 @@ iframe {
     display: block;
     margin: 20px auto;
 }
-
 /* ========== Skills Section ========== */
 #skills table {
     width: 60%;
     margin: 20px auto;
     border-collapse: collapse;
     text-align: center;
-}
-
-#skills th, #skills td {
-    border: 1px solid black;
-    padding: 10px;
+    font-size: 1.1em;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 #skills th {
-    background-color: #333;
+    background: linear-gradient(135deg, #444, #222);
     color: white;
+    padding: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
+
+
+#skills td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    transition: background 0.3s ease-in-out;
+}
+
 
 #skills tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+#skills tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+#skills tr:hover {
+    background-color: #f4b400;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
 
 /* ========== Footer ========== */
 footer {

@@ -84,7 +84,7 @@ main {
     flex-direction:column;
     align-items: center; /* Centers content vertically */
     justify-content: flex-start; /* Centers content horizontally */
-    color:#f5deb3 ; /* Ensures text is readable */
+    color: #ececec; /* Ensures text is readable */
     text-align: center;
 }
 

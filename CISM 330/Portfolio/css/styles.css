@@ -120,6 +120,10 @@ main {
     color: white;
     text-align: center;
 }
+.contact ul li {
+    list-style-type: none;
+}
+
 
 /* Contact Form */
 #contact-form {

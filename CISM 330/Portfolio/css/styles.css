@@ -136,7 +136,7 @@ main {
 }
 
 /* Contact Form Styles */
-.contact-form {
+#contact-form {
     width: 90%; /* Makes it more flexible on different screens */
     max-width: 600px; /* Keeps it from getting too wide */
     background: rgba(255, 255, 255, 0.9); /* Light background for readability */
@@ -147,7 +147,7 @@ main {
 }
 
 /* Form Headings */
-.contact-form h2 {
+#contact-form h2 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.8em;
@@ -155,7 +155,7 @@ main {
 }
 
 /* Labels & Inputs */
-.contact-form label {
+#contact-form label {
     display: block;
     font-weight: bold;
     margin: 10px 0 5px;
@@ -163,9 +163,9 @@ main {
 }
 
 /* Input Fields */
-.contact-form input,
-.contact-form select,
-.contact-form textarea {
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -175,13 +175,13 @@ main {
 }
 
 /* Textarea Styling */
-.contact-form textarea {
+#contact-form textarea {
     resize: vertical;
     min-height: 120px;
 }
 
 /* Submit Button */
-.contact-form button {
+#contact-form button {
     width: 100%;
     padding: 12px;
     background: #f4b400;
@@ -194,7 +194,7 @@ main {
     transition: background 0.3s ease-in-out;
 }
 
-.contact-form button:hover {
+#contact-form button:hover {
     background: #d99a00;
 }
 

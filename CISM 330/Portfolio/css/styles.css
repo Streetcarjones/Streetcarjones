@@ -85,7 +85,7 @@ main {
     align-items: center; /* Centers content vertically */
     justify-content: flex-start; /* Centers content horizontally */
     color: white; /* Ensures text is readable */
-    text-align: center;
+    text-align: left;
 }
 
     

@@ -73,31 +73,29 @@ main {
 
 /* About Section */
 .about {
-    width: 100%;  /* Make sure it spans full width */
-    min-height: 100vh;  /* Ensures it covers the full viewport height */
+    width: 100%;
+    min-height: 100vh;
     padding: 80px 20px;
-    background-image: url('images/books.jpg'); /* Adjust path as needed */
-    background-size: cover;  /* Ensures full coverage */
-    background-position: center;  /* Centers the image */
-    background-repeat: no-repeat; /* Prevents repeating */
+    background-image: url('images/books.jpg'); /* Corrected path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
-    flex-direction:column;
-    align-items: center; /* Centers content vertically */
-    justify-content: flex-start; /* Centers content horizontally */
-    color: #ececec; /* Ensures text is readable */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #ececec;
     text-align: center;
 }
-
-    
-   
 
 .about nav {
     list-style-type: none;
 }
- .about ul li {
+
+.about ul li {
     list-style-type: none;
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 
 .about header h1 {
@@ -108,37 +106,26 @@ main {
 
 /* Contact Section */
 .contact {
-    background: white;
-    max-width: 700px;
-    margin: 30px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
-}
-
-.contact section h1 {
+    width: 100%;
+    min-height: 100vh; /* Ensures it covers the full viewport */
+    padding: 50px 20px;
+    background-image: url('images/trumpet.jpg'); /* Ensure correct path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
     text-align: center;
 }
 
-.contact section ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.contact section ul li {
-    list-style-type: none;
-    font-size: 1.2em;
-    margin: 10px 0;
-}
-
-/* Contact Form Styles */
+/* Contact Form */
 #contact-form {
-    width: 90%; /* Makes it more flexible on different screens */
-    max-width: 600px; /* Keeps it from getting too wide */
-    background: rgba(255, 255, 255, 0.9); /* Light background for readability */
+    width: 90%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.9);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -161,7 +148,6 @@ main {
     font-size: 1em;
 }
 
-/* Input Fields */
 #contact-form input,
 #contact-form select,
 #contact-form textarea {
@@ -199,8 +185,8 @@ main {
 
 /* Responsive Tweaks */
 @media (max-width: 768px) {
-    .contact-form {
-        width: 95%; /* Makes it slightly wider on small screens */
+    #contact-form {
+        width: 95%;
     }
 }
 
@@ -228,8 +214,6 @@ iframe {
 }
 
 /* Responsive Styles */
-
-/* Tablet View */
 @media (max-width: 768px) {
     #contact-form {
         max-width: 80%;

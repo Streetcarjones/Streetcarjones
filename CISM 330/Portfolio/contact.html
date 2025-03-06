@@ -5,85 +5,76 @@ Contact.html
 02/02/2025
 -->
 <html lang="en">
-  <head>
+<head>
     <title>Contact</title>
     <meta charset="utf-8">
-<link rel="stylesheet" href="css/styles.css">
-	
- </head>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 <body>
-  <header>
-    <h1>Chad Davidson</h1>
-    <h2>"Success Fades, Excellence Endures."</h2>
+    <header>
+        <h1>Chad Davidson</h1>
+        <h2>"Success Fades, Excellence Endures."</h2>
     </header>
+
     <nav>
-      <ul>
-	<li><a href="index.html">Home</a></li>
-	<li><a href="about.html">About Me</a></li>
-     	<li><a href="photos.html">Photos</a></li>
-      	<li><a href="skills.html">Skills</a></li>
-      	<li><a href="contact.html">Contact Me</a></li>
-      </ul> 
- </nav>
-      
-      
-      <!--This section is to provide a short bio-->     
-      <main>
-	  
-<section>
-    <h1>Contact</h1>
-	  <ul>
-	  <li>Point University</li>
-	  <li>507 W 10th St, West Point, GA 31833</li>
-	<li><iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3474018.733357444!2d-89.28451559220942!3d31.754215182049542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d30.6839552!2d-88.0443392!4m5!1s0x88f51d7753642ef9%3A0x53f12ddd7af6e9e6!2spoint%20university%20address!3m2!1d32.879069199999996!2d-85.1849053!5e0!3m2!1sen!2sus!4v1739237275474!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
-       </ul>
-</section>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul> 
+    </nav>
 
-<section id="contact-form">
-  <h2>Questions?</h2>
-  <form action="#" method="post">
-      <label for="name">Full Name:</label>
-      <input type="text" id="name" name="name" required>
+    <main>
+        <!-- Added class="contact" to properly style this page in CSS -->
+        <div class="contact">
+            <section>
+                <h1>Contact</h1>
+                <ul>
+                    <li>Point University</li>
+                    <li>507 W 10th St, West Point, GA 31833</li>
+                </ul>
 
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" required>
+                <!-- Google Map Embed -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3474018.733357444!2d-89.28451559220942!3d31.754215182049542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d30.6839552!2d-88.0443392!4m5!1s0x88f51d7753642ef9%3A0x53f12ddd7af6e9e6!2spoint%20university%20address!3m2!1d32.879069199999996!2d-85.1849053!5e0!3m2!1sen!2sus!4v1739237275474!5m2!1sen!2sus" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </section>
 
-      <label for="subject">Subject:</label>
-      <select id="subject" name="subject">
-          <option value="general">General Inquiry</option>
-          <option value="feedback">Feedback</option>
-      </select>
+            <section id="contact-form">
+                <h2>Questions?</h2>
+                <form action="#" method="post">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
 
-      <button type="submit">Submit</button>
-  </form>
-</section>
-      
-      
-      </main>
-    
-<footer>
-Send email to :<a href="mailto:cdavidson267973@students.point.edu">cdavidson267973@students.point.edu</a>
-</footer>
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject">
+                        <option value="general">General Inquiry</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        Send email to: 
+        <a href="mailto:cdavidson267973@students.point.edu">cdavidson267973@students.point.edu</a>
+    </footer>
 </body>
 </html>
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  

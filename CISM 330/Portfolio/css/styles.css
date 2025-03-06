@@ -115,8 +115,6 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-   
     background: white;
     max-width: 700px;
     margin: 30px auto;

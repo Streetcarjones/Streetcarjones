@@ -130,6 +130,7 @@ main {
 }
 
 .contact section ul li {
+    list-style-type: none;
     font-size: 1.2em;
     margin: 10px 0;
 }

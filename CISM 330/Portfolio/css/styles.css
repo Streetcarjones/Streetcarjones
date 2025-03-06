@@ -81,11 +81,11 @@ main {
     background-position: center;  /* Centers the image */
     background-repeat: no-repeat; /* Prevents repeating */
     display: flex;
-    flex-direction: column;
-    align-items: left; /* Centers content vertically */
+    flex-direction:column;
+    align-items: center; /* Centers content vertically */
     justify-content: flex-start; /* Centers content horizontally */
-    color: white; /* Ensures text is readable */
-    text-align: left;
+    color:#f5deb3 ; /* Ensures text is readable */
+    text-align: center;
 }
 
     

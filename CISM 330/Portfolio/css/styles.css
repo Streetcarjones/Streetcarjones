@@ -137,54 +137,72 @@ main {
 
 /* Contact Form Styles */
 .contact-form {
-    max-width: 500px;
-    margin: 30px auto;
-    padding: 20px;
-    background: #fff;
+    width: 90%; /* Makes it more flexible on different screens */
+    max-width: 600px; /* Keeps it from getting too wide */
+    background: rgba(255, 255, 255, 0.9); /* Light background for readability */
+    padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
 }
 
+/* Form Headings */
 .contact-form h2 {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
 }
 
+/* Labels & Inputs */
 .contact-form label {
     display: block;
     font-weight: bold;
     margin: 10px 0 5px;
-}
-
-.contact-form input, 
-.contact-form select, 
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     font-size: 1em;
 }
 
+/* Input Fields */
+.contact-form input,
+.contact-form select,
 .contact-form textarea {
-    resize: vertical;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background: #f9f9f9;
 }
 
+/* Textarea Styling */
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Submit Button */
 .contact-form button {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     background: #f4b400;
     border: none;
     color: white;
     font-size: 1.2em;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 15px;
     border-radius: 5px;
     transition: background 0.3s ease-in-out;
 }
 
 .contact-form button:hover {
     background: #d99a00;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 95%; /* Makes it slightly wider on small screens */
+    }
 }
 
 /* Google Map */

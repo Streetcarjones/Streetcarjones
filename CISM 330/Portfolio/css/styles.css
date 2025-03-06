@@ -108,13 +108,6 @@ main {
 
 /* Contact Section */
 .contact {
-    width: 100%;
-    min-height: 100vh; /* Makes sure it fills the page */
-    padding: 50px 20px; /* Adjusted padding */
-    background-image: url('images/trumpet.jpg'); /* Ensure correct path */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background: white;
     max-width: 700px;
     margin: 30px auto;

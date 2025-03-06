@@ -81,9 +81,10 @@ main {
     border-radius: 10px;
     border-left: 5px solid #222;
     border-right: 5px solid #222;
-    background-image: url('/CISM330/portfolio/images/books.jpg'); /* Fixed image path */
+    background-image: url('css/images/books.jpg'); /* Fixed image path */
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 400px;
 }
 
 .about header h1 {

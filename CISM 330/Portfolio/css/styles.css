@@ -84,7 +84,7 @@ main {
     background-image: url('images/books.jpg'); /* Fixed image path */
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 400px;
+    
    
 }
 .about nav {

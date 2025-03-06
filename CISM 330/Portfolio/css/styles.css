@@ -86,7 +86,7 @@ main {
     background-repeat: no-repeat;
     min-height: 400px;
 }
- .about ul {
+ .about ul li {
     list-style: none;
     padding: 0%;
     margin: 0%;

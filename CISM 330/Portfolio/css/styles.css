@@ -258,7 +258,7 @@ figcaption {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: black;
     text-align: center;
 }
 

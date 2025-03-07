@@ -81,16 +81,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: left;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 5px;
-}
+   
 
 .about nav {
     list-style-type: none;

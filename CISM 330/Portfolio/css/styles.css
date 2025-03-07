@@ -89,6 +89,16 @@ main {
     color: #ececec;
     text-align: center;
 }
+a{
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+a:hover{
+    color: #ffa500;
+    text-decoration: underline;
+}
 .about nav {
     list-style-type: none;
 }

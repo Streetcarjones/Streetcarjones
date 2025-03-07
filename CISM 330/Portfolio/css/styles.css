@@ -166,7 +166,7 @@ nav ul li a.active {
     color: #ececec;
     text-align: center;
 }
-.about nav ul li {
+.about nav, ul, li {
     list-style-type: none;
     font-size: large;
 }
